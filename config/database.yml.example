@@ -20,7 +20,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: AppName_development
+  database: RebootAmerica_development
   pool: 5
   username: # Your username here
   password: # Your password here
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: AppName_test
+  database: RebootAmerica_test
   pool: 5
-  username: AppName
+  username: RebootAmerica
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: AppName_production
+  database: RebootAmerica_production
   pool: 5
-  username: AppName
+  username: RebootAmerica
   password:

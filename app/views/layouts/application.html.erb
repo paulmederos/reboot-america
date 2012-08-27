@@ -8,6 +8,9 @@
     <%= yield(:head) %>
   </head>
   <body>
+    <nav>
+      <%= render 'layouts/navigation' %>
+    </nav>
     <div class="wrap">
       <% flash.each do |name, msg| %>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>

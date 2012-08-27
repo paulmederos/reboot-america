@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-AppName::Application.load_tasks
+RebootAmerica::Application.load_tasks

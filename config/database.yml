@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: AppName-dev
+  database: reboot-dev
   pool: 5
   username: paul
   password: love
