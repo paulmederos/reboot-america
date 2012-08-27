@@ -58,6 +58,7 @@ header#reboot-problems {
 	width:245px;
 	padding: 1em;
 	display: inline-block;
+
 	
 	a {
 		background: $darkBlue;
@@ -71,7 +72,23 @@ header#reboot-problems {
 }
 
 .event-copy {
+	position: relative;
+	top:-50px;
+	left:24px;
 	display: inline-block;
 	width: 490px;
 	color: white;
+}
+
+.reboot-copy {
+	width: 524px;
+	position: relative;
+
+	p { width:490px; }
+}
+
+#home-democracy, 
+#home-national-challenges,
+#home-government {
+	padding: 4em;
 }
