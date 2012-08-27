@@ -1,6 +1,11 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+$darkBlue: #061E3E;
+$darkYellow: #FBB03B;
+
+h1, h2, h3 { text-transform: uppercase; margin-bottom: .5em; }
+
+h1 { font-size: 48px; }
+h2 { font-size: 34px; }
+h3 { font-size: 26px; }
 
 nav {
 	width:100%;
@@ -20,4 +25,53 @@ nav {
 		color: white;
 		margin-left: 2em;
 	}
+}
+
+p {
+	font-size: 15px;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header#reboot-problems {
+	padding-top: 4em;
+	min-height: 240px;
+	
+	p {
+		font-size: 32px;
+	}
+}
+
+#home-event-highlight {
+	width:100%;
+	background:  $darkBlue;
+	padding: 2em 0;
+}
+
+.event-register {
+	background: $darkYellow;
+	color: $darkBlue;
+	width:245px;
+	padding: 1em;
+	display: inline-block;
+	
+	a {
+		background: $darkBlue;
+		width: 100%;
+		text-align: center;
+		color: $darkYellow;
+		font-size: 24px;
+		padding: .5em 0;
+		margin-top: .5em;
+	}
+}
+
+.event-copy {
+	display: inline-block;
+	width: 490px;
+	color: white;
 }
