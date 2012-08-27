@@ -17,5 +17,5 @@ development:
   encoding: unicode
   database: reboot-dev
   pool: 5
-  username: paul
+  username: paulmederos
   password: love
