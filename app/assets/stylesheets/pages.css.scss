@@ -1,22 +1,35 @@
 $darkBlue: #061E3E;
-$darkYellow: #FBB03B;
+$lightBlue: #2C96D1;
 
-h1, h2, h3 { text-transform: uppercase; margin-bottom: .5em; }
+$darkYellow: #FBB03B;
+$lightGray: #E6E6E6;
+
+$darkRed: #BD2034;
+$lightRed: #F41952;
+
+body {
+	line-height: 1.337;
+	color: #333;
+}
+
+h1, h2, h3, h4 { text-transform: uppercase; margin-bottom: .25em; }
 
 h1 { font-size: 48px; }
 h2 { font-size: 34px; }
 h3 { font-size: 26px; }
 
+
+
 nav {
 	width:100%;
-	background:rgba(0,0,0,1);
+	background:#111;
 	height: 45px;
 
 	ul { 
 		list-style: none;
 		text-align: right;
 		float:right;
-		margin-top: 18px;
+		margin-top: 16px;
 	}
 	
 	li {
@@ -32,9 +45,13 @@ p {
 }
 
 .btn {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
+	border:1px solid rgba(0,0,0,.5);
+	box-shadow: inset 0 0 2px rgba(255,255,255,.5);
+
+	&:active { box-shadow: inset 0 2px 3px rgba(0,0,0,.3); }
 }
 
 header#reboot-problems {
@@ -64,16 +81,18 @@ header#reboot-problems {
 		background: $darkBlue;
 		width: 100%;
 		text-align: center;
-		color: $darkYellow;
+		color: white;
 		font-size: 24px;
 		padding: .5em 0;
 		margin-top: .5em;
+		box-shadow: 0 2px 1px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.2);
+		text-shadow:0 1px 1px rgba(0,0,0,.4);
 	}
 }
 
 .event-copy {
 	position: relative;
-	top:-50px;
+	top:-74px;
 	left:24px;
 	display: inline-block;
 	width: 490px;
@@ -81,14 +100,135 @@ header#reboot-problems {
 }
 
 .reboot-copy {
-	width: 524px;
+	width: 530px;
 	position: relative;
 
 	p { width:490px; }
 }
 
+.read-more {
+	background: $darkBlue;
+	padding: 1.2em 2em 1em;
+	color: white;
+	margin-top: 1em;
+}
+
 #home-democracy, 
 #home-national-challenges,
 #home-government {
+	position: relative;
 	padding: 4em;
 }
+
+#home-democracy { top:0; left:200px; }
+#home-national-challenges { top:0; left:300px; }
+#home-government { top:0; left:200px; }
+
+.reboot-copy h2 { padding: .1em 0; }
+.reboot-copy h2 em { padding: .1em .2em .05em; }
+#home-democracy h2 em { background: $lightRed;}
+#home-national-challenges h2 em { background: $lightBlue;}
+#home-government h2 em { background: $lightGray;}
+
+#home-what-is-reboot h2 {
+	color: $darkRed;
+}
+
+#home-what-is-reboot a.read-more {
+	background: $darkRed;
+}
+
+.home-meet-us {
+	background: $darkBlue;
+	color: white;
+	width:410px;
+	padding: 1.3em 1em;
+	display: inline-block;
+	float:left;
+	margin-right: 18px;
+
+	h3 {
+		font-size: 2em;
+	}
+
+		a {
+		background: $darkYellow;
+		width: 100%;
+		text-align: center;
+		color: white;
+		font-weight: 500;
+		font-size: 24px;
+		padding: .5em 0;
+		margin-top: .5em;
+		box-shadow: 0 2px 1px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.2);
+		text-shadow:0 1px 1px rgba(0,0,0,.4);
+	}
+}
+
+.btn.idea, .btn.pledge {
+	display: block;
+	float:left;
+	color: white;
+	background: $lightGray;
+	width: 434px;
+	text-align: center;
+	font-size: 34px;
+	padding: .5em 0;
+	margin-bottom: 18px;
+}
+
+.btn.idea { background: $darkBlue; }
+.btn.pledge { background: $darkRed; }
+
+footer {
+	clear: both;
+	color: white;
+	background: #111;
+	min-height: 200px;
+	margin-bottom: -1em;
+	margin-top: 2em;
+	padding-top: 2em;
+	border-top:1px solid black;
+	box-shadow: inset 0 1px 1px rgba(255,255,255,.4);
+
+	ul.blue-stripes li { border-left: 2px solid $lightBlue; }
+	ul.red-stripes li { border-left: 2px solid $lightRed; }
+
+	li {
+		position: relative;
+		padding-left:.5em;
+		margin-bottom: .5em;
+		-webkit-transition: all .25s linear;
+						transition: all .25s linear;
+
+		&:hover { 
+			left:5px; 
+			-webkit-transition: all .25s linear;
+							transition: all .25s linear;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+			display: block;
+		}
+	}
+
+	.fourth {
+		display: inline-block;
+		width: 22%;
+		margin-right: 2em;
+		vertical-align: top;
+	}
+}
+
+.half {
+	display: inline-block;
+	width:47%;
+	margin-right: 1em;
+	vertical-align: top;
+
+	p { margin-bottom: 1em;}
+}
+
+.omega { margin-right: 0 !important; }
