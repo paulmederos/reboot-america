@@ -25,6 +25,10 @@ nav {
 	background:#111;
 	height: 45px;
 
+	#reboot-logo {
+		margin-top: 4px;
+	}
+
 	ul { 
 		list-style: none;
 		text-align: right;
@@ -37,6 +41,8 @@ nav {
 		text-transform: uppercase;
 		color: white;
 		margin-left: 2em;
+
+		a { color: white; text-decoration: none;}
 	}
 }
 
