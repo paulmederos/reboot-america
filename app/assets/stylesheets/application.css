@@ -107,6 +107,17 @@ body {
   overflow: hidden;
 }
 
+.cf {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
 
 #flash_notice, #flash_error, #flash_alert {
   padding: 5px 8px;
@@ -154,3 +165,5 @@ body {
 .error_messages ul {
   margin: 0;
 }
+
+a { color: #2C96D1; } 

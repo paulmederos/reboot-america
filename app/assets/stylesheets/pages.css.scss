@@ -23,9 +23,10 @@ h3 { font-size: 26px; }
 nav {
 	width:100%;
 	background:#111;
-	height: 45px;
+	height: 56px;
 
 	#reboot-logo {
+		display:inline-block;
 		margin-top: 4px;
 	}
 
@@ -33,7 +34,7 @@ nav {
 		list-style: none;
 		text-align: right;
 		float:right;
-		margin-top: 16px;
+		margin-top: 21px;
 	}
 	
 	li {
@@ -238,3 +239,38 @@ footer {
 }
 
 .omega { margin-right: 0 !important; }
+
+
+.internal {
+	margin-top:4em;
+}
+
+.internal p {
+	margin-bottom:1em;
+	line-height:1.337;
+}
+
+.internal h2 {
+	margin-top:1.5em;
+}
+
+.internal .half {
+	width: 45%;
+	margin-right: 3.1em;
+}
+
+.participants li,
+.sponsors li {
+	display:inline-block;
+	width:45%;
+	height:46px;
+	background:#BDCCD4;
+	margin-bottom:1em;
+	margin-right:1em;
+}
+
+#leaders img {
+	float:left; margin:0 1em 0 0;
+}
+
+#leaders h3 { font-size: 20px; }
