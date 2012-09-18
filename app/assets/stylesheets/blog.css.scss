@@ -1,0 +1,18 @@
+$darkBlue: #061E3E;
+$lightBlue: #2C96D1;
+
+$darkYellow: #FBB03B;
+$lightGray: #E6E6E6;
+
+$darkRed: #BD2034;
+$lightRed: #F41952;
+
+.blog {
+
+	h2 a {
+		color:&darkBlue;
+		text-decoration:none;
+		margin-bottom: 1em;
+	}
+
+}
