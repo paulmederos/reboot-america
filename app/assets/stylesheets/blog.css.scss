@@ -21,14 +21,16 @@ $lightRed: #F41952;
 
 	h2 { margin-top: 0 !important; }
 
+	a { color: $darkBlue; }
+
 	h2 a {
-		color:$darkBlue;
+		color:$darkRed;
 		text-decoration:none;
 		margin-bottom: 1em;
 	}
 
 	blockquote {
-		padding-left: 3em;
+		padding-left: 2em;
 		font-size: 1.5em;
 		margin-bottom: 1em;
 		border-left: 1em solid $darkBlue;
@@ -82,6 +84,12 @@ $lightRed: #F41952;
 			text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 			font-size: 1em;
 		}
+	}
+
+	.blog-post {
+		border-bottom: 1px solid $darkBlue;
+		padding-bottom: 2em;
+		margin-bottom: 4em;
 	}
 
 }
