@@ -19,14 +19,15 @@ $lightRed: #F41952;
 
 .blog {
 
-	h2 { margin-top: 0 !important; }
+	h2 { margin-top: 0 !important; margin-bottom: 1em; }
+
+	em { font-style: italic; }
 
 	a { color: $darkBlue; }
 
 	h2 a {
 		color:$darkRed;
 		text-decoration:none;
-		margin-bottom: 1em;
 	}
 
 	blockquote {
