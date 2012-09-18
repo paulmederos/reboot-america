@@ -86,9 +86,10 @@ header#reboot-problems {
 	background: $darkYellow;
 	color: $darkBlue;
 	width:245px;
-	padding: 1em;
 	display: inline-block;
-
+	padding: 2.45em 1em;
+	border: 1px solid rgba(0, 0, 0, .9);
+	box-shadow: 0 1px 1px rgba(255, 255, 255, .3), inset 0 1px 1px rgba(255, 255, 255, .4);
 	
 	a {
 		background: $darkBlue;
@@ -105,11 +106,13 @@ header#reboot-problems {
 
 .event-copy {
 	position: relative;
-	top:-74px;
+	vertical-align:top;
 	left:24px;
 	display: inline-block;
 	width: 490px;
 	color: white;
+
+	h2 { color: white; }
 }
 
 .read-more {
