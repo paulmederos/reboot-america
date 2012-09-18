@@ -15,4 +15,25 @@ $lightRed: #F41952;
 		margin-bottom: 1em;
 	}
 
+	.content {
+		width: 560px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 36px;
+	}
+
+	.sidebar {
+		display: inline-block;
+		width: 300px;
+		vertical-align: top;
+	}
+
+	.sidebar .module {
+		padding: 1em;
+		background: $darkBlue;
+		border: 1px solid rgba(0,0,0,.8);
+		box-shadow: inset 0 1px 1px rgba(255,255,255,.5), 0 0 4px rgba(0,0,0,.3);
+		color: white;
+	}
+
 }
