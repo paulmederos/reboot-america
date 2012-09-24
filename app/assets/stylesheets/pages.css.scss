@@ -352,6 +352,56 @@ footer {
 	}
 }
 
+
+#global-sponsors img, #community-sponsors img { margin-bottom:1em; }
+
+#global-sponsors { margin-left: -1em; }
+
+#global-sponsors li {
+	width:310px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:1em;
+}
+
+#community-sponsors {
+	margin-left:-1em;
+}
+
+#community-sponsors h3 {
+	margin:2em 0;
+	color:$newRed;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#community-sponsors li {
+	width:310px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:1em;
+}
+
+#partners h4 {
+	font-size:18px;
+	font-weight:600;
+	margin-bottom:1.5em;
+
+	a { color: $newRed; text-decoration:none;}
+	a:hover { text-decoration:underline; }
+
+	&.blue a {
+		color:$newBlue;
+	}
+}
+
+#partners ul { font-size:18px; line-height:1.2; margin-bottom:4em;}
+#partners ul li { margin-bottom:2em; vertical-align:top; padding-left:1em;}
+
+ul.red-bullet { margin-left: 2em; list-style-image: url("bullet-red.png");}
+ul.blue-bullet { margin-left: 2em; list-style-image: url("bullet-blue.png");}
+
+
 /*------------------------------------*\
   The Summit page
 \*------------------------------------*/
