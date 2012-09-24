@@ -401,6 +401,33 @@ footer {
 ul.red-bullet { margin-left: 2em; list-style-image: url("bullet-red.png");}
 ul.blue-bullet { margin-left: 2em; list-style-image: url("bullet-blue.png");}
 
+ul#leaders {
+	li {
+		width:158px;
+		text-align:center;
+		display:inline-block;
+		vertical-align:top;
+		padding:1em;
+
+		img { 
+			display:block; 
+			margin:0 auto 1em; 
+			border:1px solid rgba(0,0,0,.1);
+			box-shadow:0 1px 2px rgba(0,0,0,.3);
+			padding:.5em;
+			background:white;
+			border-radius:3px;
+		}
+
+		a { 
+			color:$newBlue; 
+			text-decoration:none; 
+
+			&:hover { text-decoration:underline;}
+		}
+	}
+}
+
 
 /*------------------------------------*\
   The Summit page
