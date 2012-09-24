@@ -1,9 +1,15 @@
 RebootAmerica::Application.routes.draw do
+  
+  match '/mission' => 'pages#what_is_reboot/mission'
+  match '/leadership' => 'pages#what_is_reboot/leadership'
+  match '/partners' => 'pages#what_is_reboot/partners'
+  match '/sponsors' => 'pages#what_is_reboot/sponsors'
 
-  match '/what-is' => 'pages#what_is'
   match '/get-involved' => 'pages#get_involved'
   match '/get-inspired' => 'pages#get_inspired'
   match '/the-summit' => 'pages#the_summit'
+
+  match '/what-is-reboot' => 'pages#what_is_reboot/mission'
 
   match 'user/edit' => 'users#edit', :as => :edit_current_user
   match 'signup' => 'users#new', :as => :signup
