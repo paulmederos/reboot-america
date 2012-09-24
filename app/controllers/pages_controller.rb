@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
 	end
 
-	def what_is
+	def what_is_reboot
 
 	end
 
