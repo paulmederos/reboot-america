@@ -7,6 +7,9 @@ $lightGray: #E6E6E6;
 $darkRed: #BD2034;
 $lightRed: #F41952;
 
+$newRed: #b03530;
+$newBlue: #27384c;
+
 body {
 	line-height: 1.337;
 	color: #333;
@@ -61,19 +64,55 @@ p {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align:center;
 	border:1px solid rgba(0,0,0,.5);
-	box-shadow: inset 0 0 2px rgba(255,255,255,.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 2px rgba(255,255,255,.2);
+	padding: .75em 2em;
+	font-size: 18px;
+	color: white;
+	border-radius: 3px;
 
-	&:active { box-shadow: inset 0 2px 3px rgba(0,0,0,.3); }
+	&:active { box-shadow: inset 0 2px 3px rgba(0,0,0,.3), 0 1px 2px rgba(255,255,255,.1); }
+
+	span {
+		font-size:10px;
+		font-family:"museo", sans-serif;
+		font-weight:500;
+		display:block;
+		text-align:center;
+	}
 }
 
-header#reboot-problems {
-	padding-top: 1em;
-	min-height: 240px;
-	
-	p {
-		font-size: 14px;
+.summit-header {
+	background:$newRed;
+	border:1px solid rgba(0,0,0,.6);
+	box-shadow: 0 1px 1px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.2);
+	color:white;
+	text-shadow:0 1px 1px rgba(0,0,0,.4);
+	line-height:1.2;
+	padding:1.5em 0;
+	border-top:none;
+
+	h3 { 
+		color:white;
+		font-size:20px;
+		font-weight:500;
+		margin-bottom:.2em;
 	}
+
+	aside {
+		text-transform:uppercase;
+		font-size:16px;
+	}
+
+	time {
+		font-size: 16px;
+		font-weight:300;
+		font-family: "museo";
+	}
+
+	.btn { vertical-align: top; padding:.5em 1em; }
+	.alternate { background: $newBlue;}
 }
 
 #home-event-highlight {
@@ -82,38 +121,31 @@ header#reboot-problems {
 	padding: 2em 0;
 }
 
-.event-register {
-	background: $darkYellow;
-	color: $darkBlue;
-	width:245px;
-	display: inline-block;
-	padding: 2.45em 1em;
-	border: 1px solid rgba(0, 0, 0, .9);
-	box-shadow: 0 1px 1px rgba(255, 255, 255, .3), inset 0 1px 1px rgba(255, 255, 255, .4);
-	
-	a {
-		background: $darkBlue;
-		width: 100%;
-		text-align: center;
-		color: white;
-		font-size: 24px;
-		padding: .5em 0;
-		margin-top: .5em;
-		box-shadow: 0 2px 1px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.2);
-		text-shadow:0 1px 1px rgba(0,0,0,.4);
+#what-is-reboot {
+	background:$newBlue;
+	padding:4em 0 6em;
+
+	img { display:inline-block; position:relative; top:20px; margin-right:2em; }
+
+	h2 {
+		display:inline-block;
+		font-family:"museo", serif;
+		color:white;
+		text-transform:none;
+		line-height:1.6;
+		font-size:26px;
+		font-weight:100;
+		text-shadow:0 1px 0 rgba(0,0,0,.5);
+		width:690px;
+
+		strong { font-weight:500;}
 	}
 }
 
-.event-copy {
-	position: relative;
-	vertical-align:top;
-	left:24px;
-	display: inline-block;
-	width: 490px;
-	color: white;
-
-	h2 { color: white; }
+#stats-slider {
+	min-height:400px;
 }
+
 
 .read-more {
 	background: $darkBlue;
@@ -122,61 +154,6 @@ header#reboot-problems {
 	margin-top: 1em;
 }
 
-
-#home-what-is-reboot {
-	margin:4em auto;
-
-	h2 {
-		color: $darkRed;
-	}
-}
-
-#home-what-is-reboot a.read-more {
-	background: $darkRed;
-}
-
-.home-meet-us {
-	background: $darkYellow;
-	width:410px;
-	padding: 1.95em 1em;
-	display: inline-block;
-	float:left;
-	margin-right: 18px;
-	border:1px solid rgba(0,0,0,.3);
-
-	h3 {
-		font-size: 2em;
-	}
-
-		a {
-			background: $darkBlue;
-			width: 100%;
-			text-align: center;
-			color: white;
-			font-weight: 500;
-			font-size: 24px;
-			padding: .5em 0;
-			margin-top: .5em;
-			box-shadow: 0 1px 2px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.2);
-			text-shadow:0 1px 1px rgba(0,0,0,.4);
-	}
-}
-
-.btn.idea, .btn.pledge {
-	position:relative;
-	display: block;
-	float:left;
-	color: white;
-	background: $lightGray;
-	width: 434px;
-	text-align: center;
-	font-size: 34px;
-	padding: .5em 0;
-	margin-bottom: 18px;
-}
-
-.btn.idea { background: $darkBlue; }
-.btn.pledge { background: $darkRed; }
 
 footer {
 	clear: both;

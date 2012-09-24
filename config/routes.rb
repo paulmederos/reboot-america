@@ -3,7 +3,7 @@ RebootAmerica::Application.routes.draw do
   match '/what-is' => 'pages#what_is'
   match '/get-involved' => 'pages#get_involved'
   match '/get-inspired' => 'pages#get_inspired'
-  match '/meet-us' => 'pages#meet_us'
+  match '/the-summit' => 'pages#the_summit'
 
   match 'user/edit' => 'users#edit', :as => :edit_current_user
   match 'signup' => 'users#new', :as => :signup

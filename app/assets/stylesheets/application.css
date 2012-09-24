@@ -91,7 +91,7 @@ sub { top: 0.4em; }
 
 
 body {
-	font-family: "Proxima Nova", "Helvetica", sans-serif;
+	font-family: "Proxima Nova", "proxima-nova", "Helvetica", sans-serif;
 	font-size: 13px;
 }
 
