@@ -7,6 +7,9 @@ $lightGray: #E6E6E6;
 $darkRed: #BD2034;
 $lightRed: #F41952;
 
+$newRed: #b03530;
+$newBlue: #27384c;
+
 
 @mixin gradient-shadow($bg: #ffffff) {
   background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%), $bg; /* FF3.6+ */
@@ -19,11 +22,11 @@ $lightRed: #F41952;
 
 .blog {
 
-	h2 { margin-top: 0 !important; margin-bottom: 1em; }
+	h2 { margin-top: 0 !important; margin-bottom: 1em; color:$darkBlue; font-size:36px;}
 
 	em { font-style: italic; }
 
-	a { color: $darkBlue; }
+	a { color: $newBlue; }
 
 	h2 a {
 		color:$darkRed;
@@ -34,7 +37,7 @@ $lightRed: #F41952;
 		padding-left: 2em;
 		font-size: 1.5em;
 		margin-bottom: 1em;
-		border-left: 1em solid $darkBlue;
+		border-left: 1em solid $newBlue;
 	}
 
 	ul {
@@ -60,7 +63,7 @@ $lightRed: #F41952;
 
 	.sidebar .module {
 		padding: 1em;
-		background: $darkBlue;
+		background: $newBlue;
 		border: 1px solid rgba(0,0,0,.8);
 		box-shadow: inset 0 1px 1px rgba(255,255,255,.5), 0 0 4px rgba(0,0,0,.3);
 		color: white;

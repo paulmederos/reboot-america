@@ -1,6 +1,6 @@
  $(document).ready(function(){
     $('#slider').bxSlider({
-    	mode: 'fade',
+    	mode: 'horizontal',
     	randomStart: 'true',
     	auto: 'true',
     	speed: '100',
