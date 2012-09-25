@@ -22,15 +22,15 @@ $newBlue: #27384c;
 
 .blog {
 
-	h2 { margin-top: 0 !important; margin-bottom: 1em; color:$darkBlue; font-size:36px;}
+	h2 { margin-top: 0 !important; margin-bottom: 1em;}
 
 	em { font-style: italic; }
 
 	a { color: $newBlue; }
 
 	h2 a {
-		color:$darkRed;
 		text-decoration:none;
+		color:$darkBlue; 
 	}
 
 	blockquote {
