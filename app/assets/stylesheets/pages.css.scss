@@ -96,6 +96,7 @@ p {
 
 .summit-header {
 	background:$newRed;
+	background:url('subtlenet2-red.png') repeat;
 	border:1px solid rgba(0,0,0,.6);
 	box-shadow: 0 1px 1px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.2);
 	color:white;
@@ -122,7 +123,7 @@ p {
 		font-family: "museo";
 	}
 
-	.btn { vertical-align: top; padding:.5em 1em; }
+	.btn { vertical-align: top; padding:.5em .8em; }
 }
 
 footer {
@@ -211,7 +212,7 @@ footer {
 
 	img {
 		border:1px solid rgba(0,0,0,.6);
-		box-shadow:inset 0 1px 2px rgba(255,255,255,.6), 0 0 6px rgba(0,0,0,.4);
+		box-shadow:inset 0 1px 2px rgba(255,255,255,.6), 0 1 1px rgba(0,0,0,.4);
 		border-radius:3px;
 		margin-right:2em;
 		width:238px;
@@ -288,11 +289,17 @@ footer {
 			color:$newBlue;
 			text-decoration:none;
 			display:block;
+			text-shadow:0 1px 0 rgba(255,255,255,.4);
 
 			&:first-child { padding-top:.5em; }
 			&:hover { background: rgba(0,0,0,.1); }
 
-			&.current { background: $newBlue; color:white;}
+			&.current { 
+				background: $newBlue; 
+				color:white; 
+				box-shadow:inset 0 1px 4px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.8);
+				text-shadow:0 1px 1px rgba(0,0,0,.5);
+			}
 		}
 	}
 
