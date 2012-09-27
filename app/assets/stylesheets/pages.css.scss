@@ -187,7 +187,7 @@ footer {
 
 #what-is-reboot {
 	background:$newBlue;
-	padding:4em 0 6em;
+	padding:2em 0 4em;
 
 	img { display:inline-block; position:relative; top:20px; margin-right:2em; }
 
@@ -538,4 +538,7 @@ ul#leaders {
 
 	h4 { font-size:14px; color:#333; display:block; font-weight:bold;}
 }
+
+.inspired p { text-align:justify; text-justify:inter-word; }
+.inspired p strong { color: $newRed; }
 
