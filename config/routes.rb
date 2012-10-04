@@ -10,6 +10,7 @@ RebootAmerica::Application.routes.draw do
   match '/the-summit' => 'pages#the_summit'
 
   match '/what-is-reboot' => 'pages#what_is_reboot/mission'
+  match '/patrioticly' => 'pages#patrioticly'
 
   match 'user/edit' => 'users#edit', :as => :edit_current_user
   match 'signup' => 'users#new', :as => :signup

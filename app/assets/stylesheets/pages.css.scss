@@ -542,3 +542,15 @@ ul#leaders {
 .inspired p { text-align:justify; text-justify:inter-word; }
 .inspired p strong { color: $newRed; }
 
+
+/*------------------------------------*\
+  Patrioticly page
+\*------------------------------------*/
+.patrioticly-content {
+	font-family:"Museo", serif;
+
+	ul li { vertical-align:top; margin-bottom:1em;}
+	strong, p, ul { font-size: 18px; }
+	a.btn { padding:.5em 5em;}
+}
+
