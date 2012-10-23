@@ -551,6 +551,31 @@ ul#leaders {
 
 
 /*------------------------------------*\
+  Speakers page
+\*------------------------------------*/
+
+.keynote-speakers { margin-bottom:4em; }
+.keynote-speakers img { 
+	display:inline-block; 
+	margin-right:2em; 
+	border:1px solid rgba(0,0,0,.7);
+	box-shadow:0 1px 3px rgba(0,0,0,.3);
+}
+
+.speaker-detail { 
+	display:inline-block; 
+	vertical-align:top;
+	width:450px;
+
+	h4 { color:$newRed; font-size:2em; font-weight:bold;}
+	h5 { font-size:1.2em; margin-bottom:1em; font-style:italic;}
+
+}
+.regular-speakers h4 { font-weight:bold;}
+.regular-speakers h5 { font-size:1em;}
+
+
+/*------------------------------------*\
   Get Inspired page
 \*------------------------------------*/
 
