@@ -55,12 +55,49 @@ nav {
 	}
 	
 	li {
+		position:relative;
 		display:inline-block;
 		text-transform: uppercase;
 		color: white;
 		margin-left: 2em;
+		padding-bottom:10px;
 
 		a { color: white; text-decoration: none;}
+	}
+
+	.dropdown-nav { 
+		width:100px;
+		position:absolute;
+		top:-8px;
+		left:-12px;
+		background:white;
+		border:1px solid rgba(0,0,0,.9);
+		box-shadow:0 0 4px rgba(0,0,0,.5);
+		border-radius:3px;
+		
+		padding:1em 1em .8em;
+		text-align:left;
+		display:none;
+
+		li { margin:0; line-height:2; padding:0; width:100%; }
+		li a {
+			color:#333;
+			display:block;
+			&:hover{ color:$newRed; text-decoration:underline;}
+		}
+	}
+
+	.navigation > li:hover .dropdown-nav { display:block; }
+	.dropdown-nav:before {
+		content:"";
+		display:block;
+		position:absolute;
+		top:-.4em;
+		left:24px;
+		width:0;
+		border-width:0px 7px 7px;
+		border-style:solid;
+		border-color:white transparent;
 	}
 }
 
