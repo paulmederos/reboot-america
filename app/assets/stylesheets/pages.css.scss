@@ -503,6 +503,20 @@ footer {
 #partners ul { font-size:18px; line-height:1.2; margin-bottom:4em;}
 #partners ul li { margin-bottom:2em; vertical-align:top; padding-left:1em;}
 
+ul#media-partners {
+	margin:0;
+
+	li {
+		margin:0;
+		padding:0;
+		list-style:none;
+		float:left;
+		width:300px;
+	}
+
+	li img { width:100%; border:1px solid rgba(0,0,0,.5); box-shadow:0 1px 3px rgba(0,0,0,.3);}
+}
+
 ul.red-bullet { margin-left: 2em; list-style-image: url("bullet-red.png");}
 ul.blue-bullet { margin-left: 2em; list-style-image: url("bullet-blue.png");}
 

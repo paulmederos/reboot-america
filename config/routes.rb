@@ -7,8 +7,10 @@ RebootAmerica::Application.routes.draw do
 
   match '/get-involved' => 'pages#get_involved'
   match '/get-inspired' => 'pages#get_inspired'
+
   match '/speakers' => 'pages#speakers'
   match '/the-summit' => 'pages#the_summit'
+  match '/agenda' => 'pages#agenda'
 
   match '/what-is-reboot' => 'pages#what_is_reboot/mission'
   match '/patrioticly' => 'pages#patrioticly'
