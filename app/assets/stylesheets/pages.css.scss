@@ -546,6 +546,11 @@ ul#leaders {
 	top:-10px;
 }
 
+#summit-overview {
+	display:block;
+	margin-bottom:5em;
+}
+
 #summit-intro {
 	font-size:18px;
 	font-family:"museo", sans-serif;
@@ -554,10 +559,12 @@ ul#leaders {
 	width:726px;
 	line-height:1.4;
 	vertical-align:top;
-	margin-bottom:5em;
 }
 
+#summit-details { clear:both; padding-top:6em;}
+
 #summit-schedule {
+
 	display:inline-block;
 	width:240px;
 	text-align:right;
