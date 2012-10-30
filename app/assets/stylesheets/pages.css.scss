@@ -267,7 +267,8 @@ footer {
 		vertical-align:top; 
 		font-size:1.5em; 
 		padding-top:.75em;
-		a { color:white; }
+		color:white;
+		a { color:white; text-decoration:underline; }
 	}
 }
 
@@ -299,8 +300,8 @@ footer {
 
 	#trailer {
 		display:block; 
-		width:853px; 
-		height:480px;
+		width:640px; 
+		height:360px;
 		margin:0 auto;
 	}
 }
