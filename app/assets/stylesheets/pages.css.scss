@@ -62,7 +62,7 @@ nav {
 		margin-left: 2em;
 		padding-bottom:10px;
 
-		a { color: white; text-decoration: none;}
+		a { color: white; text-decoration: none; &:hover { text-decoration:underline; } }
 	}
 
 	.dropdown-nav { 
@@ -289,6 +289,19 @@ footer {
 		width:690px;
 
 		strong { font-weight:500;}
+	}
+}
+
+#reboot-video {
+	margin:6em auto 2em; 
+	border-bottom:1px solid rgba(0,0,0,.2);
+	padding-bottom:6em;
+
+	#trailer {
+		display:block; 
+		width:853px; 
+		height:480px;
+		margin:0 auto;
 	}
 }
 
