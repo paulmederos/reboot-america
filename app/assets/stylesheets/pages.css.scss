@@ -658,7 +658,14 @@ ul#leaders {
 .regular-speakers h4 { font-weight:bold;}
 .regular-speakers h5 { font-size:1em;}
 
-
+/*------------------------------------*\
+  Agenda page
+\*------------------------------------*/
+#agenda .table { margin-bottom:4em; }
+#agenda h3 { margin-bottom:1em; }
+#agenda h4 { color:#333; margin-bottom:1em; }
+#agenda a.breakout { color:$newBlue; font-weight:bold;}
+#agenda i { font-style:italic; color:$newBlue;}
 /*------------------------------------*\
   Get Inspired page
 \*------------------------------------*/
