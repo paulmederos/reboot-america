@@ -501,14 +501,13 @@ footer {
 	}
 }
 
-#partners ul { font-size:18px; line-height:1.2; margin-bottom:4em;}
-#partners ul li { margin-bottom:2em; vertical-align:top; padding-left:1em;}
+#partners-page h3 { margin-bottom:.75em;}
 
-ul#media-partners {
+ul.partners-list {
 	margin:0;
 
 	li {
-		margin:0;
+		margin:0 0 4em 0;
 		padding:0;
 		list-style:none;
 		float:left;
@@ -664,7 +663,10 @@ ul#leaders {
 #agenda .table { margin-bottom:4em; }
 #agenda h2 { margin-bottom:.75em;}
 #agenda h3 { margin-bottom:1em; }
-#agenda h4 { color:#333; margin-bottom:1em; }
+#agenda h4 { 
+	color:#222; margin-bottom:1em; 
+	span { padding-left:1em; color: #777; }
+}
 #agenda .shadow { margin-bottom: 2em; color:#999999;}
 #agenda a.breakout { color:$newBlue; font-weight:bold;}
 #agenda i { font-style:italic; color:$newBlue;}
