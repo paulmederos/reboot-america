@@ -513,6 +513,8 @@ footer {
 	}
 }
 
+
+
 #partners-page h3 { margin:2em 0 .75em; clear:both;}
 
 ul.partners-list {
@@ -527,6 +529,7 @@ ul.partners-list {
 	}
 
 	li img { width:100%; border:1px solid rgba(0,0,0,.5); box-shadow:0 1px 3px rgba(0,0,0,.3);}
+	li.left-partner { margin-right:1em; }
 }
 
 ul.red-bullet { margin-left: 2em; list-style-image: url("bullet-red.png");}
